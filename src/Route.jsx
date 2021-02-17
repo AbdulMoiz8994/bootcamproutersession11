@@ -28,12 +28,11 @@ const Name=()=>{
             <Route exact path="/" element={<Home/>}/>
             <Route exact path="/about" element={<About/>}/>
             <Route exact path="/about/name" element={<Name/>}/>
-            {/* <Route   path="/product" element={<Product/>}/> */}
             <Route   path="/product" element={<Product/>}/>
             <Route  exact path="/product/:id" element={<Productitem/>}/>
             {/* <Route  exact path="/product/:id/nestedRouter" element={<NestedRouterofProduct/>}/> */}
          
-            <Route  exact path="*" element={<Error/>}/>
+            <Route   path="*" element={<Error/>}/>
 
         </Routes>
         </Router>
